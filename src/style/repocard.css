@@ -1,0 +1,22 @@
+.repo-card{
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 500px;
+    margin: 20px;
+    padding: 2%;
+}
+
+.repo-keywords {
+    margin-top: 8px;
+}
+
+.keyword {
+    display: inline-block;
+    background-color: #f1f1f1;
+    border-radius: 4px;
+    padding: 4px 8px;
+    margin: 4px;
+    font-size: 0.875em;
+    color: #555;
+}
+

@@ -1,0 +1,110 @@
+.profile-card{
+    padding: 5%;
+    margin-top: 30px;
+}
+
+.profile-card-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pofile-pic {
+    width: 30%;
+}
+.profile-card-container{
+    box-shadow: 8px 8px 4px grey;
+    border-radius: 30px;
+}
+
+.profile-card-container > img{
+    padding: 2%;
+    height: 7%;
+    width: 40%;
+    border-radius: 50%;
+}
+
+.profile-info {
+    overflow: auto;
+    margin-right: 40px;
+    height: 130px;
+    width: 40%;
+}
+
+/* Hide scrollbar for WebKit browsers */
+.profile-info::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for Internet Explorer and Edge */
+.profile-info {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+.profile-info > h1{
+    margin-bottom: 10px;
+}
+.profile-info > h4{
+    margin-bottom: 5px;
+}
+
+.profile-card > button{
+    margin-left: 40%;
+    margin-top: 15px;
+}
+
+.button-40{
+    margin-left: 100px;
+    margin-top: 15px;
+}
+
+/* CSS */
+.button-40 {
+  background-color: #111827;
+  border: 1px solid transparent;
+  border-radius: .75rem;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  flex: 0 0 auto;
+  font-family: "Inter var",ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-size: 1.125rem;
+  font-weight: 600;
+  line-height: 1.5rem;
+  padding: .75rem 1.2rem;
+  text-align: center;
+  text-decoration: none #6B7280 solid;
+  text-decoration-thickness: auto;
+  transition-duration: .2s;
+  transition-property: background-color,border-color,color,fill,stroke;
+  transition-timing-function: cubic-bezier(.4, 0, 0.2, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: auto;
+}
+
+.button-40:hover {
+  background-color: #374151;
+}
+
+.button-40:focus {
+  box-shadow: none;
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+@media (min-width: 768px) {
+  .button-40 {
+    padding: .75rem 1.5rem;
+  }
+}
+
+
+/* responsive */
+@media only screen and (max-width: 600px) {
+    .profile-info > h1{
+        font-size: medium;
+    }
+}

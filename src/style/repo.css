@@ -1,0 +1,11 @@
+.repo{
+    margin-left: 10%;
+}
+
+.repo-container >h1{
+    margin-left: 50px;
+}
+.repo-list{
+    display: flex;
+    flex-wrap: wrap;
+}
